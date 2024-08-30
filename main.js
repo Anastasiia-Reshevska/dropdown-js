@@ -37,7 +37,7 @@
             dropdownBtn.classList.remove(ACTIVE_CLASS);
             dropdownEl.classList.remove(ACTIVE_CLASS);
         } else {
-            closeAllDropdowns(); // Close any other open dropdowns
+            closeAllDropdowns(); 
             dropdownBtn.classList.add(ACTIVE_CLASS);
             dropdownEl.classList.add(ACTIVE_CLASS);
         }
